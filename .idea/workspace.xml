@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7471b465-f74b-4861-b5c1-cee26e2f8d94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/SuperOver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/TwentyTwenty.java" afterDir="false" />
+    <list default="true" id="7471b465-f74b-4861-b5c1-cee26e2f8d94" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/BattingStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/NameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/SuperOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/SuperOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/TwentyTwenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/TwentyTwenty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +52,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/vashuj/Downloads/GameOfCricket"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,6 +65,29 @@
       <option name="presentableId" value="Default" />
       <updated>1675662638647</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1675675804452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675675804452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
