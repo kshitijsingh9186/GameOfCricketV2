@@ -16,11 +16,11 @@ public class Team {
     public int numberOfOvers;
     private final int maximumOversPerBowler;
 
-    Team(int numberOfOvers) {
+    Team(String teamName, int numberOfOvers) {
         this.numberOfOvers = numberOfOvers;
         maximumOversPerBowler = (int) (Math.ceil(((double) numberOfOvers) / ((double) TOTALNUMBEROFBOWLERS)));
         for (int i = 0; i < TOTALNUMBEROFPLAYERS; i++) {
-            batsman[i] = new Player();
+            batsman[i] = new Player(teamName, i + 1);
         }
 
         for (int i = 0; i < TOTALNUMBEROFBOWLERS; i++) {
@@ -66,23 +66,30 @@ public class Team {
     }
 
     public void printBattingScorcard() {
-        System.out.println("|  Batting            R  B  4s  6s  S/R  |");
+        System.out.println("|  Batting                                   R  B  4s  6s  S/R  |");
         for (Player player : batsman) {
-            System.out.println("|"+player.getName() + "(" + player.getBattingStatus() + ")" + "    " + player.getRunsScored() + "  "
+            System.out.println("|" + player.getName() + "(" + showBattingStatusOrWicketBy(player) + ")" + "    " + player.getRunsScored() + "  "
                     + player.getNumberOfBallsPlayed() + "  " + player.getNumberOfFours() + "  " + player.getNumberOfSixes() + "  " +
-                    player.getStrikeRate()+"|");
+                    player.getStrikeRate() + "|");
             System.out.println("--------------------------------------------------------------------");
         }
         System.out.println("Total Runs -" + getRuns());
     }
 
+    public String showBattingStatusOrWicketBy(Player player) {
+        if (player.getBattingStatus() == BattingStatus.OUT)
+            return "Wicket by-" + player.getWicketBy();
+
+        return player.getBattingStatus().toString()+"                  ";
+    }
+
     public void printBowlingScorecard() {
         System.out.println();
-        System.out.println("|  Bowling            O  R  W  Econ  |");
+        System.out.println("|  Bowling                O  R  W  Econ  |");
         for (Player bowler : bowlers) {
             if (bowler.getNumberOfOversBowled() == 0) continue;
-            System.out.println("|"+ bowler.getName() + "           " + bowler.getNumberOfOversBowled() + "  " + bowler.getRunsGiven() +
-                    "  " + bowler.getWickets() + "  " + bowler.getEconomy()+"|");
+            System.out.println("|" + bowler.getName() + "           " + bowler.getNumberOfOversBowled() + "  " + bowler.getRunsGiven() +
+                    "  " + bowler.getWickets() + "  " + bowler.getEconomy() + "|");
             System.out.println("----------------------------------------------------------------------");
         }
     }

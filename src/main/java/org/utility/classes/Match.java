@@ -9,8 +9,8 @@ public abstract class Match {
 
     Match(int numberOfOvers) {
         NUMBEROFOVERS = numberOfOvers;
-        teamFirst = new Team(NUMBEROFOVERS);
-        teamSecond = new Team(NUMBEROFOVERS);
+        teamFirst = new Team("TeamA", NUMBEROFOVERS);
+        teamSecond = new Team("TeamB",NUMBEROFOVERS);
     }
 
     public void playGame() {

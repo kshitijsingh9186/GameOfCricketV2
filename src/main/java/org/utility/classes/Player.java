@@ -1,6 +1,5 @@
 package org.utility.classes;
 
-import static org.utility.classes.NameGenerator.generateRandomName;
 
 public class Player {
     private String name;
@@ -16,6 +15,11 @@ public class Player {
     private int numberOfFours;
 
     private int numberOfSixes;
+
+    Player(String teamName, int serialNumber) {
+        name = teamName +" Player " +serialNumber;
+        battingStatus = BattingStatus.YETTOBAT;
+    }
 
     public int getNumberOfFours() {
         return numberOfFours;
@@ -49,11 +53,6 @@ public class Player {
         this.numberOfBallsPlayed = numberOfBallsPlayed;
     }
 
-
-    Player() {
-        name = generateRandomName();
-        battingStatus = BattingStatus.YETTOBAT;
-    }
 
     public int getNumberOfOversBowled() {
         return numberOfOversBowled;

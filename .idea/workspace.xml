@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7471b465-f74b-4861-b5c1-cee26e2f8d94" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/BattingStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/NameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/NameGenerator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/SuperOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/SuperOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Status.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utility/classes/TwentyTwenty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utility/classes/TwentyTwenty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675675804452</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1675940960003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675940960003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
